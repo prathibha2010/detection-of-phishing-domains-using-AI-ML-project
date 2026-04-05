@@ -1,0 +1,33 @@
+architecture of the project :
+
+Input
+URL Input: The system starts by taking a URL as input. This is the web address that needs to be
+checked for phishing.
+
+**Feature Extraction** 
+Extracting Features from the URL: The URL is then passed through a feature extraction
+process. During this step, various characteristics or features of the URL are identified and
+extracted. These might include:
+o Length of the URL
+o Presence of special characters or suspicious patterns
+o Domain age
+o Use of HTTPS/SSL
+o IP address vs. domain name
+These features are critical as they help the machine learning algorithm differentiate between
+phishing and legitimate URLs.
+Machine Learning Algorithm
+Processing with a Machine Learning Model: The extracted features are then fed into a pre-
+trained machine learning algorithm. This model has been trained on a large dataset of both
+phishing and legitimate URLs, allowing it to recognize patterns and make predictions.
+Phishing Classification
+Classifying the URL: Based on the analysis done by the machine learning algorithm, the system
+classifies the URL as either phishing or legitimate. This classification is determined by how closely
+the features of the input URL match the patterns learned during training.
+Prediction Results
+Outputting the Prediction: Finally, the system generates the prediction results, indicating
+whether the URL is phishing or legitimate. This result is then displayed to the user or used in
+further processing.
+Phishing vs. Legitimate
+Final Decision: The prediction results are divided into two possible outcomes:
+o Phishing: If the URL is classified as phishing, it is flagged as potentially harmful.
+o Legitimate: If the URL is classified as legitimate, it is considered safe.
