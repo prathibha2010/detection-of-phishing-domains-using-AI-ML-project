@@ -1,0 +1,35 @@
+SYSTEM REQUIREMENTS SPECIFICATIONS
+
+Hardware Requirements:
+Processor -2Hz Dual core processor or faster
+RAM - 4GB minimum
+Storage – 20GB
+3.2
+
+Software requirements:
+Operating system -Windows
+Front-end -Flutter , Streamlit
+Back-end -Python
+Database -MySQL
+
+Functional Requirements: Functional Requirement defines a function of a software system and
+how the system must behave when presented with specific inputs or conditions. These may include
+calculations, data manipulation and processing and other specific functionality. In this system following
+are the functional requirements
+
+Training dataset must be loaded
+User enters the URL in URL locator.
+URL must be detected and display whether it is legitimate or non-fake website.
+Other Non-Functional Requirements
+A non-functional requirement is a determination that depicts the framework’s activity abilities and
+requirements that improve its usefulness.
+Some of them are as follows:
+Reusability: the same code with limited changes can be used for detecting phishing attacks variants
+like smishing, vishing, etc.
+Maintainability: The implementation is very basic and includes print statements that makes it easy
+to debug.
+Usability: The software used is very user friendly and open source. It also runs on any
+operating system.
+Scalability: The implementation can include detection of vishing, smishing, etc.
+Maintainability: It maintains clean code, easily upgradable, automated testing.
+Reliability: The system is reliable by controlling accuracy, uptime and resilience.
